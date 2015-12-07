@@ -14,19 +14,19 @@ class ReactMessage extends React.Component {
 			margin: '-15px 0 40px'
 		};
 
-        return (
-        	<div className="wrapper" style={headerStyle}>
-			<div className="card">
-				<h1 className="logo">"SuperCell <SvgLogo /> Index Page"</h1> 
-				<p style={versionStyle}>version {version}</p>
-				<p>Hello, this is a <strong>{this.props.phrase}</strong></p>
-				<p><a href="/style-guide.html">Style Guide</a></p>
-
+    return (
+    	<div className="wrapper" style={headerStyle}>
+				<div className="card">
+					<h1 className="logo">"Tech Lab 5g"</h1> 
+					<p style={versionStyle}>version {version}</p>
+					<p>Hello, this is a <strong>{this.props.phrase}</strong></p>
+					<p><a href="/style-guide.html">Style Guide</a></p>
+				</div>
 			</div>
-		</div>
-        );
-    }
+    );
+  }
 }
+
 
 class SvgLogo extends React.Component {
 	render(){
