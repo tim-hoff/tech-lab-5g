@@ -8,10 +8,10 @@ ReactDOM.render(
     document.querySelector('#app')
     );
 
-ReactDOM.render(
-    <HueCard/>,
-    document.querySelector('#app')
-    );
+// ReactDOM.render(
+//     <HueCard/>,
+//     document.querySelector('#app')
+//     );
 // es6
 import {es6Welcome} from './demoES6';
 es6Welcome(6);
