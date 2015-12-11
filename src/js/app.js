@@ -1,5 +1,3 @@
-import ReactMessage from './components/Message';
-import HueCard from './components/HueCard';
 
 // es6
 import {es6Welcome} from './demoES6';
