@@ -6,7 +6,9 @@ export function es6Welcome(version) {
 			<div class="card">
 				<p>Hello, this is an <strong>ES${version} module</strong></p>
 			</div>
-		</div>`;
+		</div>
+		<button type="button" onclick="test()">Click</button>
+		`;
 	
 	const newEl = document.createElement("p");
 	newEl.innerHTML = html;

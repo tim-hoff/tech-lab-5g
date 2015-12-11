@@ -26,7 +26,13 @@
     "watchify": "^3.4.0"
   },
   "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "fs": "0.0.2",
+    "http": "0.0.0",
+    "path": "^0.12.7",
     "react": "^0.14.2",
-    "react-dom": "^0.14.2"
+    "react-dom": "^0.14.2",
+    "url": "^0.11.0"
   }
 }
