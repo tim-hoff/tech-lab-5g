@@ -11,8 +11,6 @@ var assign        = require('lodash.assign');
 var browserSync   = require('browser-sync');
 var sass          = require('gulp-sass');
 var autoprefixer  = require('gulp-autoprefixer');
-var react         = require('react');
-var reactDOM      = require('react-dom');
 
 // custom browserify options here
 var customOpts = {
@@ -23,7 +21,7 @@ var opts = assign({}, watchify.args, customOpts);
 var b = watchify(browserify(opts)); 
 
 // transformations here
-b.transform("babelify", {presets: ["es2015", "react"]});
+b.transform("babelify", {presets: ["es2015"]});
 
 gulp.task('js', bundle); // so you can run `gulp js` to build the file
 b.on('update', bundle); // on any dep update, runs the bundler

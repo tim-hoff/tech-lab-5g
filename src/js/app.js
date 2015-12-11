@@ -1,13 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
 import ReactMessage from './components/Message';
 import HueCard from './components/HueCard';
-
-
-// ReactDOM.render(
-//     <ReactMessage phrase="React Component!"/>,
-//     document.querySelector('#app')
-//     );
 
 // es6
 import {es6Welcome} from './demoES6';
